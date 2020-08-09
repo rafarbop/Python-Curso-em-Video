@@ -1,17 +1,15 @@
-#Aula 06 do Curso Python em Video!
+# Desafio 4 Curso em Video Python
 
-#Tipos Primitivos
+# Usa uma função que retorna o tipo primitivo e utiliza alguns métodos utilizados com strings!
 
-#By Rafabr
+# By Rafabr
 
-''' '''
 
-print('************************************************************')
-print('\nTarefa 01 - Aula 06')
+print('\nDesafio 4')
+print(80*'*')
 print('Este programa estuda os tipos primitivos de Python e utiliza')
-print('alguns métodos da função print.\n')
+print('alguns métodos utilizados com strings.\n')
 
-#
 n1=input('Digite número: ')
 print('\nEsse programa importou o valor como o seguinte tipo primitivo:\n',type(n1))
 
@@ -29,7 +27,7 @@ print(n.isalnum())
 print('Voçe digitou um espaço?')
 print(n.isspace())
 
-print('\nFim da execução\n')
-print('************************************************************')
+print('\n---Fim da execução---\n')
+print(80*'*')
 
 

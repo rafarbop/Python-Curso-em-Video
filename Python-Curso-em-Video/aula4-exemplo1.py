@@ -9,7 +9,7 @@ solicita o dia o mês e o ano do usuário e retorna a data completade nascimento
 de forma configurada'''
 
 print('************************************************************')
-print('\nTarefa 01 e 02 - Aula 04')
+print('\nAula 04 - Exemplos')
 print('Este programa pergunta alguns dados seus e retorna os dados\npara confirmação')
 
 #pergunta o nome do usuário e retorna uma saudação
