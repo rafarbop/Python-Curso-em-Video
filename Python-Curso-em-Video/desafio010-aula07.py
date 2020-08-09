@@ -21,6 +21,6 @@ print('Considerando a taxa de conversão atual: U$ 1.00 = R$ 3.27\n')
 
 dolares = reais / 3.27
 
-print('Com R$ {:.2f}, voçe pode adquirir U$ {:.2f}'.format(round(reais,2),round(dolares,2)))
+print('Com R$ {:.2f}, voçe pode adquirir U$ {:.2f}'.format(round(reais,2),round(dolares-0.005,2)))
 
 print('\n---Fim da execução---\n')
