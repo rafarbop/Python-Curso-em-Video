@@ -12,7 +12,7 @@ from math import sqrt,floor,ceil
 import math,random,emoji
 
 print('************************************************************')
-print('\nAula 04 - Exemplos e Testes')
+print('\nAula 08 - Exemplos e Testes')
 
 num = int(input('Digite um número: '))
 
