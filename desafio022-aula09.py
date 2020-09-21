@@ -20,8 +20,4 @@ print(f'O nome digitado tem {len(nome_sem_espaco)} caracteres e {len(nome) - len
 primeira_palavra = nome.split()
 print(f'A primeira palavra ({primeira_palavra[0]}) possui {len(primeira_palavra[0])} caracteres')
 
-
-
-
-
 print('\n---Fim da execução---\n')
