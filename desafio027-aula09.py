@@ -1,4 +1,4 @@
-# Desafio 25 Curso em Video Python
+# Desafio 27 Curso em Video Python
 
 # Este programa ler o nome completo de uma pessoa e mostra o primeiro e o último nome.
 
@@ -7,7 +7,7 @@
 import sys,time,subprocess
 
 subprocess.run(['clear'])
-print('\nDesafio 23')
+print('\nDesafio 27')
 print('Este programa ler o nome completo de uma pessoa e mostra o primeiro e o último nome.\n\n')
 
 nome = input('Digite o nome completo de uma pessoa: ')

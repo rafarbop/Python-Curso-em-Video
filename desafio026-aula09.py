@@ -1,4 +1,4 @@
-# Desafio 25 Curso em Video Python
+# Desafio 26 Curso em Video Python
 
 # Este programa verifica se uma frase digitada tem a letra 'a' e mostras algumas informações.
 
@@ -7,7 +7,7 @@
 import sys,time,subprocess
 
 subprocess.run(['clear'])
-print('\nDesafio 23')
+print('\nDesafio 26')
 print('Este programa verifica se uma frase digitada tem a letra \'a\' e mostras algumas informações.\n\n')
 
 frase = input('Digite uma frase: ')

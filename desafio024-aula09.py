@@ -7,7 +7,7 @@
 import sys,time,subprocess
 
 subprocess.run(['clear'])
-print('\nDesafio 23')
+print('\nDesafio 24')
 print('Este programa verifica se uma cidade informada comçeça com a palavra \'santo(a)\' ou \'são\'.\n\n')
 
 cidade = input('Digite o nome de uma Cidade: ')
