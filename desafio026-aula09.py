@@ -10,23 +10,13 @@ subprocess.run(['clear'])
 print('\nDesafio 26')
 print('Este programa verifica se uma frase digitada tem a letra \'a\' e mostras algumas informações.\n\n')
 
-frase = input('Digite uma frase: ')
+frase = str(input('Digite uma frase: ')).strip().lower()
 print()
-
-frase = frase.lower()
-
-tam_frase = len(frase)
-
-a = 0
-
-for k in range(tam_frase):
-    if frase[k] == 'a':
-        a = a + 1
-
-if a > 0:
-    print(f"A frase digitada possui {a} letras 'a'.")
-    print(f"\nA letra 'a' apareçe pela primeira vez no índice {frase.find('a')} da frase")
-    print(f"\nA letra 'a' apareçe pela primeira vez no índice {frase.rfind('a')} da frase")
+ 
+if frase.count('a'):
+    print(f"A frase digitada possui {frase.count('a')} letras 'a'.")
+    print(f"\nA letra 'a' apareçe pela primeira vez na posição {frase.find('a')+1} da frase")
+    print(f"\nA letra 'a' apareçe pela primeira vez na posição {frase.rfind('a')+1} da frase")
 else:
     print("A frase não possui nenhuma letra 'a'!")
 

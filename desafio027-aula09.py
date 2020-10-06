@@ -10,12 +10,9 @@ subprocess.run(['clear'])
 print('\nDesafio 27')
 print('Este programa ler o nome completo de uma pessoa e mostra o primeiro e o último nome.\n\n')
 
-nome = input('Digite o nome completo de uma pessoa: ')
+nome = str(input('Digite o nome completo de uma pessoa: ')).lower().strip()
 print()
-
-nome = nome.lower()
-
-print(f"O primeiro nome da pessoa informada é: {nome.split()[0]}")
-print(f"O último nome da pessoa informada é:   {nome.split()[-1]}")
+print(f"O primeiro nome da pessoa informada é: {nome.split()[0].title()}")
+print(f"O último nome da pessoa informada é:   {nome.split()[-1].title()}")
 
 print('\n---Fim da execução---\n')

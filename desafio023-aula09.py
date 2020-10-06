@@ -19,11 +19,16 @@ if not(numero.isdecimal()) or int(numero)>9999:
 
 print("Processando...\n")
 
-numero = "000"+numero
+numero = int(numero)
+unidade = numero // 1 % 10
+dezena = numero // 10 % 10
+centeza = numero // 100 % 10
+milhar = numero // 1000 % 10
+
 print(f"Número Digitado: {numero}")
-print(f"Unidade: {numero[-1]}")
-print(f"Dezena:  {numero[-2]}")
-print(f"Centena: {numero[-3]}")
-print(f"Milhar:  {numero[-4]}")
+print(f"Unidade: {unidade}")
+print(f"Dezena:  {dezena}")
+print(f"Centena: {centeza}")
+print(f"Milhar:  {milhar}")
 
 print('\n---Fim da execução---\n')
