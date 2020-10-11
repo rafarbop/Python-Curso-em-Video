@@ -8,8 +8,11 @@ import sys,time,subprocess
 import random
 
 subprocess.run(['clear'])
-print('\nDesafio 28')
-print('Este programa escolhe um número aleatório e verifica se o usuário adivinha o número.\n\n')
+print('Desafio 28'.center(80))
+print('<>'*40)
+print('Este programa escolhe um número aleatório e verifica se o usuário adivinha o número.')
+print('<-->'*20)
+print('\n')
 
 chave = random.choice(range(6))
 

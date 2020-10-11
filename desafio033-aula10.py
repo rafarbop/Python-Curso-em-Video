@@ -30,6 +30,7 @@ if n1 == n2 or n1 == n3 or n2 == n3:
 
 subprocess.run(['clear'])
 
+
 if n1 < n2:
     if n1 < n3:
         print(f'O menor número é {n1}')
