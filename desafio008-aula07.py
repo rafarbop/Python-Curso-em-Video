@@ -6,8 +6,16 @@
 
 import sys,time
 
-print('\nDesafio 8')
-print('Este programa converte um valor de metros para centímetros e milímetros\n')
+import os
+os.system('clear')
+print('\033[1;47;30m',end="")
+print('\n'+'*'*80)
+print('Desafio 8'.center(80))
+print('Este programa converte um valor de metros para centímetros e milímetros!'.center(80))
+print(80*'*')
+print('\033[m',end="")
+print('\033[1;36m')
+
 
 try:
     metros = float(input('Digite a medida em metros - OBS. Somente números - : '))

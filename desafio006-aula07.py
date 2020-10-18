@@ -6,8 +6,15 @@
 
 import sys,time
 
-print('\nDesafio 6')
-print('Este programa mostra o dobro, o triplo e a raiz quadrada de qualquer número.\n')
+import os
+os.system('clear')
+print('\033[1;47;30m',end="")
+print('\n'+'*'*80)
+print('Desafio 6'.center(80))
+print('Este programa mostra o dobro, o triplo e a raiz quadrada de qualquer número.'.center(80))
+print(80*'*')
+print('\033[m',end="")
+print('\033[1;36m')
 
 try:
     x = float(input('Digite número qualquer: '))

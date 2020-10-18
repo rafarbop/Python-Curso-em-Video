@@ -2,12 +2,13 @@
 
 #By Rafabr
 
-import time,sys,os
+import time,sys
 
+import os
 os.system('clear')
 print('\033[1;4;47;34m',end="")
 print('\n'+'*'*80)
-print('Aula 11 - Exemplos e Testes'.center(80)+'\n')
+print('Aula XX - XXXX'.center(80)+'\n')
 print('\033[m',end="")
 print('\033[1;36m')
 

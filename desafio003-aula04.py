@@ -8,9 +8,16 @@
 em uma variável do tipo float para poder realizar a soma dos números'''
 
 
-print('\nDesafio 3')
+import os
+os.system('clear')
+print('\033[1;47;30m',end="")
+print('\n'+'*'*80)
+print('Desafio 3'.center(80))
+print('Este programa calcula a soma ou a diferença de 2 números informados!'.center(80))
 print(80*'*')
-print('Este programa calcula a soma ou a diferença de 2 números informados!')
+print('\033[m',end="")
+print('\033[1;36m')
+
 
 #solicita dois números do usuário
 x=float(input('\nDigite um número qualquer:\n\t'))

@@ -6,8 +6,15 @@
 
 import sys,time
 
-print('\nDesafio 10')
-print('Este programa converte um valor em reais para dólares americanos!\n')
+import os
+os.system('clear')
+print('\033[1;47;30m',end="")
+print('\n'+'*'*80)
+print('Desafio 10'.center(80))
+print('Este programa converte um valor em reais para dólares americanos!'.center(80))
+print(80*'*')
+print('\033[m',end="")
+print('\033[1;36m')
 
 try:
     reais = float(input('Digite o valor em reais que deseja converter: '))

@@ -6,8 +6,15 @@
 
 import sys,time
 
-print('\nDesafio 9')
-print('Este programa mostra a tabuada multiplicativa de um número digitado!\n')
+import os
+os.system('clear')
+print('\033[1;47;30m',end="")
+print('\n'+'*'*80)
+print('Desafio 9'.center(80))
+print('Este programa mostra a tabuada multiplicativa de um número digitado!'.center(80))
+print(80*'*')
+print('\033[m',end="")
+print('\033[1;36m')
 
 try:
     n = int(input('Digite um número inteiro: '))

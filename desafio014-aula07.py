@@ -6,8 +6,16 @@
 
 import sys,time
 
-print('\nDesafio 14')
-print('Este programa transforma uma temperatura em Celsuis para Fahrenheit!\n')
+import os
+os.system('clear')
+print('\033[1;47;30m',end="")
+print('\n'+'*'*80)
+print('Desafio 14'.center(80))
+print('Este programa transforma uma temperatura em Celsuis para Fahrenheit!'.center(80))
+print(80*'*')
+print('\033[m',end="")
+print('\033[1;36m')
+
 
 try:
     temp_c = float(input('Digite a temperatura em ºC: '))

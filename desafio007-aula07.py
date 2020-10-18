@@ -6,8 +6,16 @@
 
 import sys,time
 
-print('\nDesafio 7')
-print('Este programa recebe duas notas e calcula a média delas!\n')
+import os
+os.system('clear')
+print('\033[1;47;30m',end="")
+print('\n'+'*'*80)
+print('Desafio 7'.center(80))
+print('Este programa recebe duas notas e calcula a média delas!'.center(80))
+print(80*'*')
+print('\033[m',end="")
+print('\033[1;36m')
+
 
 try:
     nota1 = float(input('Digite a primeira nota: '))

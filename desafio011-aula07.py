@@ -6,8 +6,18 @@
 
 import sys,time
 
-print('\nDesafio 11')
-print('Este programa calcula a área de uma parede a partir da largura e altura informadas,\ne mostra quantos litros de tinta são necessários para pintá-la.\n')
+import os
+os.system('clear')
+print('\033[1;47;30m',end="")
+print('\n'+'*'*80)
+print('Desafio 11'.center(80))
+print('Este programa calcula a área de uma parede a partir da largura e altura'.center(80))
+print('e mostra quantos litros de tinta são necessários para pintá-la.'.center(80))
+print(80*'*')
+print('\033[m',end="")
+print('\033[1;36m')
+
+
 
 try:
     width = float(input('Informe a largura da parede em metros: '))

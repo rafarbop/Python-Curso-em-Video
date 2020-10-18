@@ -6,8 +6,15 @@
 
 import sys,time
 
-print('\nDesafio 5')
-print('Este programa mostra o antecessor e o sucessor de qualquer número.\n')
+import os
+os.system('clear')
+print('\033[1;47;30m',end="")
+print('\n'+'*'*80)
+print('Desafio 5'.center(80))
+print('Este programa mostra o antecessor e o sucessor de qualquer número'.center(80))
+print(80*'*')
+print('\033[m',end="")
+print('\033[1;36m')
 
 try:
     x = int(input('Digite um número inteiro: '))

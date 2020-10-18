@@ -6,8 +6,15 @@
 
 import sys,time
 
-print('\nDesafio 13')
-print('Este programa calcula um aumento de 15% no salário de uma pessoa\n')
+import os
+os.system('clear')
+print('\033[1;47;30m',end="")
+print('\n'+'*'*80)
+print('Desafio 13'.center(80))
+print('Este programa calcula um aumento de 15% no salário de uma pessoa.'.center(80))
+print(80*'*')
+print('\033[m',end="")
+print('\033[1;36m')
 
 try:
     salario = float(input('Digite o valor de seu Salário atual: '))
