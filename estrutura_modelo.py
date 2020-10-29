@@ -20,7 +20,7 @@ def cabecalho(aula,sobre:str):
 def rodape():
     print('\n')
     print('\033[1;41;37m',end="")
-    print(f'Fim de Aula'.center(100))
+    print(f'Fim da Execução'.center(100))
     print('*'*100+'\n')
     print('\033[m')
     
