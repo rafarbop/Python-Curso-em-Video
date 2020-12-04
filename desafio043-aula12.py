@@ -2,6 +2,8 @@
 
 # By Rafabr
 
+
+
 import os,time,sys
 from estrutura_modelo import cabecalho,rodape
 
@@ -25,7 +27,7 @@ if peso<0 or altura<0:
 
 imc = peso/pow(altura,2)
 
-print('Seu IMC é ',f'{imc:.2f}'.replace('.',','),'!\n')
+print('Seu IMC é',f'{imc:.2f}'.replace('.',','),'!\n')
 
 if imc < 18.5:
     print('Voçe está ABAIXO do Peso!')
@@ -38,5 +40,16 @@ elif imc <= 40:
 else:
     print('Voçe está com OBESIDADE MÓRBIDA!')
 
+peso_ideal_min = 18.5 * (altura**2)
+
+peso_ideal_max = 25 * (altura**2)
+
+print(f'\nPara um IMC ideal, seu peso deveria está entre: '+f'{peso_ideal_min:.2f}Kg → {peso_ideal_max:.2f}Kg'.replace('.',','))
+
+print('\033[1;33;41m'+'''
+A verificação de Obesidade pelo Índice IMC pode não ser       
+eficaz, pois não considera a gordura corporal!                
+Para uma melhor avaliação veja um Nutrólogo ou Nutricionista! 
+'''+'\033[m')
 
 rodape()
