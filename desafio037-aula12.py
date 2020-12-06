@@ -17,15 +17,15 @@ except ValueError:
 
 if base == 1:
     print(f'\nO número {n_decimal} convertido para binário é: ',end="")
-    print(bin(n_decimal))
+    print(bin(n_decimal)[2:])
 elif base == 2:
     print(f'\nO número {n_decimal} convertido para octal é: ',end="")
-    print(oct(n_decimal))
+    print(oct(n_decimal)[2:])
 elif base == 3:
     print(f'\nO número {n_decimal} convertido para hexadecimal é: ',end="")
-    print(hex(n_decimal))
+    print(hex(n_decimal)[2:])
 else:
-    print('Voçe Escolheu uma opção inesxitente!')
+    print('Voçe Escolheu uma opção inexistente!')
     time.slice(0.5)
     sys.exit()
 

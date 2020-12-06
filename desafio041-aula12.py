@@ -23,7 +23,7 @@ elif idade <= 14:
     print('O atleta faz parte da categoria \033[1;35mINFANTIL\033[m')
 elif idade <= 19:
     print('O atleta faz parte da categoria \033[1;35mJUNIOR\033[m')
-elif idade <= 20:
+elif idade <= 25:
     print('O atleta faz parte da categoria \033[1;35mSÊNIOR\033[m')
 else:
     print('O atleta faz parte da categoria \033[1;35mMASTER\033[m')
