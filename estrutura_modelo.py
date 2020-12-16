@@ -22,6 +22,6 @@ def rodape():
     print('\033[1;41;37m',end="")
     print(f'Fim da Execução'.center(100))
     print('*'*100+'\n')
-    print('\033[m')
+    print('\033[m',end="")
     
 
