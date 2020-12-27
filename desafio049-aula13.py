@@ -19,9 +19,11 @@ except ValueError:
 if num_tab not in list(range(1,11)):
     print('Voçe digitou um valor indevido!')
     exit()
-
 print()
-print('Fazer a tabuada aqui!')
+print(f'TABUADA DE SOMA DO {num_tab}'.center(40,'-')+'|'+f'TABUADA MULTIPLIÇÃO DO {num_tab}'.center(40,'-'))
+for k in list(range(1,11)):
+    print(f'{num_tab} + {k} = {num_tab+k}'.ljust(15).center(40)+'|'+f'{num_tab} * {k} = {num_tab*k}'.ljust(15).center(40))
+print('-'*81)
 
 rodape()
 
