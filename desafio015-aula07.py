@@ -10,8 +10,8 @@ print('\nDesafio 15')
 print('Este programa calcula o valor a pagar pelo aluguel de um carro.\n')
 
 try:
-    km = float(input('Informe quantos Km (número inteiro ou decimal) voçe percorreu com o carro alugado: '))
-    dias = int(input('Informe quantos Dias (número inteiro) voçe ficou com o carro: '))
+    km = float(input('Informe quantos Km (número inteiro ou decimal) voçe percorreu com o carro alugado\n: '))
+    dias = int(input('Informe quantos Dias (número inteiro) voçe ficou com o carro\n: '))
     print()
 except ValueError:
     print('\nNao foi digitado um valor numérico!\n')
