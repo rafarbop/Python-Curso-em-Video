@@ -1,4 +1,4 @@
-# Desafio 19 Curso em Video Python
+# Desafio 20 Curso em Video Python
 
 # Sorteia a ordem de apresentação de um trabalho de quatro alunos informados.
 
@@ -7,7 +7,7 @@
 import sys,time
 import random as ale
 
-print('\nDesafio 19')
+print('\nDesafio 20')
 print('Este programa sorteia a ordem de apresentação de um trabalho de quatro alunos informados.\n')
 
 a1 = input("Digite o nome do primeiro aluno: ")
