@@ -10,7 +10,7 @@ import math as doido
 print('\nDesafio 18')
 print('Este programa calcula o valor do seno, cosseno e tangente de qualquer ângulo\n')
 
-angulo_graus = float(input("Digite o valor do ângulo (EM GRAUS) que deseja calcular as relações trigonométricas básicas: "))
+angulo_graus = float(input("Digite o valor do ângulo (EM GRAUS) que deseja calcular as relações trigonométricas básicas\n: "))
 angulo_radianos = doido.radians(angulo_graus)
 
 seno = doido.sin(angulo_radianos)
