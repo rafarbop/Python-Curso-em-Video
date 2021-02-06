@@ -2,11 +2,11 @@
 
 # Este programa verifica se uma pessoa tem 'silva' no nome.
 
-#By Rafabr
+# By Rafabr
 
-import sys,time,subprocess
+import os
 
-subprocess.run(['clear'])
+os.system('clear')
 print('\nDesafio 25')
 print('Este programa verifica se uma pessoa tem \'silva\' no nome.\n\n')
 

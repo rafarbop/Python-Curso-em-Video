@@ -2,11 +2,11 @@
 
 # Este programa ler o nome completo de uma pessoa e mostra o primeiro e o último nome.
 
-#By Rafabr
+# By Rafabr
 
-import sys,time,subprocess
+import os
 
-subprocess.run(['clear'])
+os.system('clear')
 print('\nDesafio 27')
 print('Este programa ler o nome completo de uma pessoa e mostra o primeiro e o último nome.\n\n')
 

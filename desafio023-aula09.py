@@ -1,23 +1,26 @@
 # Desafio 23 Curso em Video Python
 
-# Este programa mostra a divisão entre unidades, dezenas, centenas e milhares de um número.
+# Este programa separa um número em unidades, dezenas, centenas e milhares de um número.
 
-#By Rafabr
+# By Rafabr
 
-import sys,time,subprocess
+import sys
+import time
+import os
 
-subprocess.run(['clear'])
+os.system('clear')
 print('\nDesafio 23')
-print('Este programa mostra a divisão entre unidades, dezenas, centenas e milhares de um número.\n\n')
+print('Este programa separa um número em unidades, dezenas, centenas e milhares de um número.\n')
 
 numero = input('Digite um número natural (Máximo: 9999): ')
 print()
 
-if not(numero.isdecimal()) or int(numero)>9999:
+if not(numero.isdecimal()) or int(numero) > 9999:
     print("Voçe digitou número diferente do especificado!\n\n")
     sys.exit()
 
 print("Processando...\n")
+time.sleep(1)
 
 numero = int(numero)
 unidade = numero // 1 % 10
