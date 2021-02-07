@@ -2,12 +2,14 @@
 
 # Este programa  escolhe um número aleatório e verifica se o usuário adivinha o número.
 
-#By Rafabr
+# By Rafabr
 
-import sys,time,subprocess
+import sys
+import time
+import os
 import random
 
-subprocess.run(['clear'])
+os.system('clear')
 print('Desafio 28'.center(80))
 print('<>'*40)
 print('Este programa escolhe um número aleatório e verifica se o usuário adivinha o número.')
@@ -25,31 +27,32 @@ except ValueError:
     sys.exit()
 
 if escolha not in range(6):
-    subprocess.run(['clear'])
+    os.system('clear')
     print('Voçe digitou um valor fora do intervalo solicitado!')
     time.sleep(1)
     sys.exit()
 
-subprocess.run(['clear'])
+os.system('clear')
 print('Verificando')
 time.sleep(0.5)
-subprocess.run(['clear'])
+os.system('clear')
 print('Verificando.')
 time.sleep(0.5)
-subprocess.run(['clear'])
+os.system('clear')
 print('Verificando..')
 time.sleep(0.5)
-subprocess.run(['clear'])
+os.system('clear')
 print('Verificando...')
 time.sleep(0.5)
-subprocess.run(['clear'])
+os.system('clear')
 print('Resposta de sua adivinhação!')
 
 
-if escolha == chave :
+if escolha == chave:
     print('\v\tPARABEŃS!\nVoçe acertou o número escolhido aleatoriamente pelo computador!')
 else:
-    print(f"\nNão foi dessa vez!\nO número escolhido pelo computador foi {chave}!")
+    print(
+        f"\nNão foi dessa vez!\nO número escolhido pelo computador foi {chave}!")
 
 
 print('\n---Fim da execução---\n')

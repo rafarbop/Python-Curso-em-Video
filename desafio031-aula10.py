@@ -2,31 +2,34 @@
 
 # Este programa calcula o preço de viagem cujo valor depende da distâcia a ser percorrida.
 
-#By Rafabr
+# By Rafabr
 
-import sys,time,subprocess
+import sys
+import time
+import os
 import random
 
-subprocess.run(['clear'])
+os.system('clear')
 print('\nDesafio 31')
 print('Este programa calcula o preço de viagem cujo valor depende da distâcia a ser percorrida.\n\n')
 
 try:
-    km = int(input('Informe a distâcia a ser percorrida na viagem que pretende fazer (Em km): ').strip())
+    km = int(input(
+        'Informe a distâcia a ser percorrida na viagem que pretende fazer (Em km): ').strip())
 except ValueError:
-    subprocess.run(['clear'])
+    os.system('clear')
     print('Voçe digitou um valor não númerico!')
     time.sleep(1)
     sys.exit()
 
 if km < 0:
-    subprocess.run(['clear'])
+    os.system('clear')
     print('Voçe digitou um valor negativo!\nNão existe distância negativa!')
     time.sleep(1)
     sys.exit()
 
 
-subprocess.run(['clear'])
+os.system('clear')
 
 if km <= 200:
     print('\nPara essa viagem, o valor por kilometro percorrido será R$ 0,50!')

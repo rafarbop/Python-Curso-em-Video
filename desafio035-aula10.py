@@ -2,48 +2,51 @@
 
 # Este programa verifica se 3 comprimentos de retas informados formam um triângulo.
 
-#By Rafabr
+# By Rafabr
 
-import sys,time,subprocess
+import sys
+import time
+import os
 import random
 
-subprocess.run(['clear'])
+os.system('clear')
 print('\nDesafio 35')
 print('Este programa verifica se 3 comprimentos de retas informados formam um triângulo.\n\n')
 
 try:
-    retas = str(input("Informe 3 medidas de reta separadas por virgula ','(Ex.: 4,5,6): ")).strip().split(',')
+    retas = str(input(
+        "Informe 3 medidas de reta separadas por virgula ','(Ex.: 4,5,6): ")).strip().split(',')
     r1 = float(retas[0])
     r2 = float(retas[1])
     r3 = float(retas[2])
 
 except ValueError:
-    subprocess.run(['clear'])
+    os.system('clear')
     print('Voçe não digitou valores válidos!')
     time.sleep(0.5)
     sys.exit()
 
 except IndexError:
-    subprocess.run(['clear'])
+    os.system('clear')
     print('Voçe não digitou 3 valores!')
     time.sleep(0.5)
     sys.exit()
 
-subprocess.run(['clear'])
+os.system('clear')
 
-if len(retas)>3:
-    subprocess.run(['clear'])
+if len(retas) > 3:
+    os.system('clear')
     print('Voçe digitou mais que 3 valores!')
     time.sleep(0.5)
     sys.exit()
 
-if r1<0 or r2<0 or r3<0:
-    subprocess.run(['clear'])
+if r1 < 0 or r2 < 0 or r3 < 0:
+    os.system('clear')
     print('Voçe digitou valores negativos!')
     time.sleep(0.5)
     sys.exit()
- 
-t= 0
+
+t = 0
 
 if r1 < r2 + r3:
     t = t + 1
