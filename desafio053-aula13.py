@@ -9,9 +9,22 @@ from estrutura_modelo import cabecalho, rodape
 
 cabecalho(53, "Verificador de Palíndromo")
 
-frase = input('Digite a frase a ser análisada: ').strip
+text = str(input('Digite a frase a ser análisada: '))
 
-for k in range(0, len(frase)):
-    print(f'{frase[k]}-{frase[-k+1]}')
+text_in_list = []
+
+for k in text.replace(' ', ''):
+    text_in_list.append(k)
+
+text_reversed = text_in_list.copy()
+text_reversed.reverse()
+print('\nFrase Informada: ', ''.join(text_in_list))
+
+print('Frase Inversa  : ', ''.join(text_reversed))
+
+if (text_in_list == text_reversed):
+    print(f"A frase informada é um palíndromo!")
+else:
+    print(f'A frase informada NÃO é um palíndromo.')
 
 rodape()
