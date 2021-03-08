@@ -36,7 +36,5 @@ else:
     else:
         print(f'O número informado não é número primo, pois tem os seguintes divisores:\n\n{numeros_divisores}')
 
-
-
 rodape()
 

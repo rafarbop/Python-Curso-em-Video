@@ -10,13 +10,21 @@ from estrutura_modelo import cabecalho,rodape
 
 cabecalho(48,"Soma dos Números Ímpares de um intervalo!")
 
-print('Os números ímpares e múltiplos de 3 entre 1 e 500 são:')
+try:
+    numeroLimite = int(input("Digite um número positivo inteiro: "))
+except ValueError:
+    print("Valor inválido!")
+    sleep(1)
+    exit()
 
 soma = 0
+listaNumeros = []
 for k in range(0,500,3):
     if ((k%2)!= 0 ):
         soma += k
-        print(str(k).rjust(3,'0'),end='  ')
+        listaNumeros.append(k)
+
+print(f'\nOs números ímpares e múltiplos de três entre 1 e um {numeroLimite} são: \n{listaNumeros}')
 
 print(f'\n\nA soma dos números acima é {soma}')
 

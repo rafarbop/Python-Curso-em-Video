@@ -16,7 +16,7 @@ except ValueError:
     time.sleep(0.5)
     sys.exit()
 
-media = float(statistics.mean([n1,n2]))
+media = float(statistics.mean([n1,n2])) 
 print(f'\tSua média escolar foi {media}')
 if media < 5.0:
     print('\tVoçe não conseguiu as notas suficientes para passar de ano')

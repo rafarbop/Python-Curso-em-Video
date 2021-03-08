@@ -26,7 +26,7 @@ elif base == 3:
     print(hex(n_decimal)[2:])
 else:
     print('Voçe Escolheu uma opção inexistente!')
-    time.slice(0.5)
+    time.sleep(0.5)
     sys.exit()
 
 

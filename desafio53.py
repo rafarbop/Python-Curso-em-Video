@@ -2,9 +2,6 @@
 
 # By Rafabr
 
-from time import sleep
-from sys import exit
-from os import system
 from estrutura_modelo import cabecalho, rodape
 
 cabecalho(53, "Verificador de Palíndromo")
