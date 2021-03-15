@@ -19,7 +19,7 @@ except ValueError:
 
 soma = 0
 listaNumeros = []
-for k in range(0,500,3):
+for k in range(0,numeroLimite,3):
     if ((k%2)!= 0 ):
         soma += k
         listaNumeros.append(k)

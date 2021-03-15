@@ -30,8 +30,7 @@ dict_idade_crescente = sorted(dicionario_pessoas.items(), key=lambda x: x[1][1],
 
 lista_homem_velho = []
 
-for lista in dict_idade_crescente:
-    print(lista[1][2])
+for lista in dict_idade_crescente: 
     if lista[1][2] == 'M':
         lista_homem_velho.append(lista)
 print()

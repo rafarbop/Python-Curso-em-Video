@@ -6,7 +6,7 @@ from estrutura_modelo import cabecalho, rodape
 
 cabecalho(53, "Verificador de Palíndromo")
 
-text = str(input('Digite a frase a ser análisada: '))
+text = str(input('Digite a frase a ser análisada: ')).strip().upper()
 
 text_in_list = []
 

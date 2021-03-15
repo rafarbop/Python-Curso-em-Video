@@ -11,7 +11,7 @@ cabecalho(55, "Maior e Menor número da sequência.")
 print("Digite o peso de várias pessoas separadas por espaço para compararmos!\n")
 
 try:
-    lista_pesos = list(map(int,input("Digite os pesos (em Kg) das pessoas: ").split()))
+    lista_pesos = list(map(float,input("Digite os pesos (em Kg) das pessoas: ").split()))
 except ValueError:
     print("Voçe digitou algum valor errado ou indevido!")
     sleep(1)
