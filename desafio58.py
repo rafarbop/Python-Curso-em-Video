@@ -25,14 +25,16 @@ while True:
         sleep(1)
         continue
     tentativas += 1
-    print(f'\nNúmero de tentativas: {tentativas}')
+    print(f'Número de tentativas: {tentativas}')
     if numero_jogador == numero_da_sorte:
         system('clear')
         cabecalho(58, "Jogo de Adivinha II")
         print('\nParabens!')
-        print(f'Voçe Acertou o Número Secreto - {numero_da_sorte} - \
-            em {tentativas} tentativas!\n')
+        print(f'Voçe Acertou o Número Secreto - {numero_da_sorte}')
+        print(f'Precisou de {tentativas} tentativas!\n')
         break
+    else:
+        print('Errou! Tente Novamente!\n')
 
 
 rodape()
