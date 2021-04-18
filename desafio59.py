@@ -46,17 +46,20 @@ while True:
         system('clear')
         cabecalho(59, "Menu de Operações Aritméticas")
         print(f'{numeros=}')
-        print(f'\nResultado = {sum(numeros)}')
+        print(f'\nA soma dos números é:\n» {sum(numeros):.2f}')
     if menu == 2:
         system('clear')
         cabecalho(59, "Menu de Operações Aritméticas")
         print(f'{numeros=}')
-        print('\nResultado = 2')
+        multiplicacao = 1
+        for n in numeros:
+            multiplicacao *= n
+        print(f'\nA multiplicação dos números é:\n» {multiplicacao:.2f}')
     if menu == 3:
         system('clear')
         cabecalho(59, "Menu de Operações Aritméticas")
         print(f'{numeros=}')
-        print(f'\nResultado = {max(numeros)}')
+        print(f'\nO maior número é:\n» {max(numeros)}')
     if menu == 4:
         system('clear')
         cabecalho(59, "Menu de Operações Aritméticas")
