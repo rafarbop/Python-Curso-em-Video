@@ -5,12 +5,12 @@ from estrutura_modelo import cabecalho, rodape
 
 cabecalho(57, "Solicitar entrada enquanto valor padrão não for digitado")
 
-sexo_opcoes = ['M', 'F']
 
 while True:
-    sexo = input('Informo que é o seu sexo (M ou F): ').strip().upper()
-    if sexo in sexo_opcoes:
+    sexo = input('Informe qual é o seu sexo (M ou F): ').strip().upper()
+    if sexo in 'MmFf':
         break
+    print('Dado Inválido!')
 
 
 print(f'\nFoi informado o sexo {sexo}')
