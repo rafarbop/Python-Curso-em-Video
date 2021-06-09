@@ -14,12 +14,12 @@ while True:
         continue
     break
 
-n = 0
+n = 1
 
 print()
 
-while (n < 10):
-    print(f'Termo {n+1}:'.ljust(10) + f'{p0 + n*r}')
+while (n <= 10):
+    print(f'Termo {n}:'.ljust(10) + f'{p0 + (n-1)*r}')
     n += 1
 
 
