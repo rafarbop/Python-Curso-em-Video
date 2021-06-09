@@ -21,7 +21,7 @@ while True:
 fatorial = 1
 fator = numero
 
-while (fator > 1):
+while (fator > 0):
     fatorial *= fator
     fator -= 1
 
