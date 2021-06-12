@@ -14,11 +14,12 @@ while True:
         continue
     break
 
+n = 1
 
-n = 0
 print()
-while (n < 10):
-    print(f'Termo {n+1}:'.ljust(14) + f'{p0 + n*r}')
+
+while (n <= 10):
+    print(f'Termo {n}:'.ljust(10) + f'{p0 + (n-1)*r}')
     n += 1
 print()
 
@@ -45,7 +46,7 @@ while True:
     total_termos = n_termos + n
     print()
     while (n < total_termos):
-        print(f'Termo {n+1}:'.ljust(14) + f'{p0 + n*r}')
+        print(f'Termo {n}:'.ljust(14) + f'{p0 + (n-1)*r}')
         n += 1
     print()
 
