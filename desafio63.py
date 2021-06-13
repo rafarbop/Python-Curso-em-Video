@@ -15,16 +15,17 @@ while True:
     break
 
 
-n = 0
-n_1 = 1
-n_2 = 0
-n_0 = 0
+n = 3
+
+n1 = 0
+n2 = 1
+n_atual = 0
+
 print('\n0 » 1', end="")
-while (n < termos):
-    n_0 = n_2 + n_1
-    print(f' » {n_0}', end="")
-    n_2 = n_1
-    n_1 = n_0
+while (n <= termos):
+    n_atual = n1 + n2
+    print(f' » {n_atual}', end="")
+    n1, n2 = n2, n_atual
     n += 1
 print()
 
