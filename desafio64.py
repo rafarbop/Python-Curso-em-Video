@@ -21,7 +21,7 @@ while True:
         numeros.append(n)
 
 
-print(f'\nForam digitados {len(numeros)-1} números no total!')
+print(f'\nForam digitados {len(numeros)} números no total!')
 print(f'A soma de todos os números é {sum(numeros):.2f}!')
 
 
