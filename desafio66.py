@@ -3,7 +3,10 @@
 
 from estrutura_modelo import cabecalho, rodape
 
-cabecalho(66, "Varios números com Flag")
+cabecalho(66, "Soma com quantidade indeterminada de números")
 
+soma = 0
+while True:
+    
 
 rodape()
